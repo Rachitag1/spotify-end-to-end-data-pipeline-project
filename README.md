@@ -27,5 +27,14 @@ Built an ETL (Extract, Transform, Load) pipeline to extract the data of Top 50 G
 - AWS Glue Crawler 
 - Amazon Athena
 
+### Install Packages
+```
+pip install pandas
+pip install spotipy
+```
+
+### Project Execution Flow
+
+Trigger AWS Lamda function on desired frequency (every 1 hour/ every day etc.) -> Extract Data from Spotify API -> Store the raw data -> Trigger Transform Function -> Transform the data and Load it -> Create crawlers on AWS glue to obtain the tables -> Query the tables using AWS Athena
 
 
