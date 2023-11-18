@@ -1,7 +1,7 @@
 # Spotify End-to-End Data Pipeline Project
 
 ### Introduction
-Built an ETL (Extract, Transform, Load) pipeline to extract the data of Top 50 Global songs from Spotify API on AWS, transform, load and analyze the same for valuable insights. 
+Built an ETL (Extract, Transform, Load) pipeline to extract the data Spotify API on AWS, transform, load and analyze the same for valuable insights. 
 
 ### Project Overview
 
